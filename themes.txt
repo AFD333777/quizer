@@ -1,0 +1,24 @@
+1,Data Communication Network Basis
+2,Network Reference Model
+3,Huawei VRP
+4,Ethernet Switching Basics
+5,VLAN Principles and Configuration
+6,STP Principles and Configuration
+7,Eth-Trunk iStack and CSS
+8,Network Layer Protocols and IP Addressing
+9,IP Routing Basics
+10,OSPF Basics
+11,IPv6 Basics
+12,Inter-VLAN Communication
+13,Comprehensive application of routing and switching technologies
+14,WLAN Overview
+15,ACL Principles and Configuration
+16,AAA Principles and Configuration
+17,Network Address Translation
+18,Network Services and Applications
+19,WAN Technologies
+20,Network Management and OM
+21,Introduction to SDN and NFV
+22,Network Programmability and Automation
+23,Typical Campus Network Architectures and Practices
+24,Final Exam

@@ -1,0 +1,71 @@
+1,1,4
+only_one
+Which of the following is a disadvantage of a tree network?
+Node with a higher layer causes more serious network problems.
+Hierarchical star structure.
+It can quickly connect multiple star networks.
+Easy to expand the network scale
+0
+1,2,4
+only_one
+Which type of network has the highest reliability?
+Star network
+Ring network
+Full mesh network
+Tree network
+2
+1,3,5
+multi
+What are the functions of the firewall?
+Isolate networks of different security levels.
+Access control between networks of different security levels.
+Remote access
+Implement data encryption and VPN services.
+Perform network address translation
+0,1,2,3,4
+1,4,4
+multi
+Which of the following types of networks can be classified according to geographical coverage?
+LAN
+MAN
+WAN
+Campus network
+0,1,2
+1,5,4
+multi
+What devices are commonly used on the network?
+Switch
+Router
+Firewall
+Wireless Controller
+0,1,2,3
+1,6,2
+only_one
+The star network has strong robustness and is not easy to fail
+Right
+Wrong
+1
+1,7,2
+only_one
+Routers can isolate broadcast domains
+Right
+Wrong
+0
+1,8,2
+only_one
+On a network, switches and routers can be used interchangeably
+Right
+Wrong
+1
+1,9,2
+only_one
+On a network, a router can function as a gateway
+Right
+Wrong
+0
+1,10,2
+only_one
+Two computers are connected through a network cable to from the simplest network
+Right
+Wrong
+0
