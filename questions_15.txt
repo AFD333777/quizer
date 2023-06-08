@@ -1,0 +1,74 @@
+15,1,4
+only_one
+What is the default step for ACL rule IDs?
+20
+15
+10
+5
+3
+15,2,4
+only_one
+What is the number range of an advanced ACL?
+4000-4999
+3000-3999
+2000-2999
+6000-6999
+1
+15,3,4
+only_one
+If the number of an ACL is 4010, which of the following fields can the ACL match?
+User source IP address
+Source and destination IP addresses
+Source and destination MAC addresses and Layer 2 protocol types
+Packet header and offset position
+2
+15,4,4
+only_one
+An AR2220 router uses the following ACL configuration to filter data packets. Which of the following statements is correct?\n[RTA]acl 2001\n[RTA-acl-basic-2001]rule permit source 10.0.1.0 0.0.0.255\n[RTA-acl-basic-2001]rule deny source 10.0.1.0 0.0.0.255\n[RTA-acl-basic-2001]rule permit source 10.0.1.0 0.0.0.3
+Packets on the 10.0.1.0/24 network segment will be rejected
+10.0.1.0/24 is allowed.
+The data packets on the network segment 10.1.1.0/30 will be rejected.
+The ACL configuration is incorrect.
+0
+15,5,4
+only_one
+Which of the following statements about ACL application scenarios is false?
+ACLs can be used for address translation
+ACL can be applied to packet filtering.
+ACLs can be used for data encryption
+ACL can be applied to LACP.
+3
+15,6,4
+multi
+ACL rule: rule 1 permit tcp source any destination 192.168.1.1 0.0.0.\n0 destination-port eq 80, What is the matched packet?
+Source IP address: 10.1.1.1; destination IP address: 192.168.1.1; source port number: 30000; destination port number: 80; transport layer protocol: UDP
+Source IP address: 10.0.0.1; destination IP address: 192.168.1.1; source port number: 30000; destination port number: 80; transport layer protocol: TCP
+Source IP address: 10.1.1.1; destination IP address: 192.168.1.1; source port number: 62012; destination port number: 80; transport layer protocol: TCP
+Source IP address: 10.1.1.1; destination IP address: 192.168.1.2; source port number: 62012; destination port number: 80; transport layer protocol: TCP
+1,2
+15,7,4
+multi
+The following ACLs are used on RTA to match route entries, which of the following network traffic will be denied?\n[RTA]acl 2002\n[RTA-acl-basic-2002]rule deny source 172.16.1.1 0.0.0.0\n[RTA-acl-basic-2002]rule deny source 172.16.0.0 0.0.255.255\n[RTA-acl-basic-2002]rule permit source any
+172.16.1.1/32
+172.16.1.0/24
+172.16.0.0/24
+192.16.1.0/24
+0,1,2
+15,8,2
+only_one
+An advanced ACL can match the source and destination port numbers of packets and filter TCP packets with a specified destination port number.
+Right
+Wrong
+0
+15,9,2
+only_one
+The command rule permit source 192.168.1.0 0.0.0.254 is used to match all Even IP addresses in the network segment.
+Right
+Wrong
+0
+15,10,2
+only_one
+If ACL 3500 is manually configured on a device, the ACL cannot be used to control the source and destination port numbers.
+Right
+Wrong
+1

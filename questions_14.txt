@@ -1,0 +1,76 @@
+14,1,4
+only_one
+Which of the following 802.11 protocols can work only on the 5 GHz frequency band?
+802.11g
+802.11n
+802.11ax
+802.11ac
+3
+14,2,4
+only_one
+What CAPWAP packets does the AC use to deliver configuration files to APs?
+Configuration Update Request
+Image Data Request
+Configuration Update Response
+Image Data Response
+2
+14,3,4
+only_one
+Which data frame is used by an AP to periodically advertise its SSID?
+Probe Request
+Probe Response
+Association Request
+Beacon
+3
+14,4,4
+only_one
+Each AC needs to specify its source IP address to establish a CAPWAP tunnel with the AP. How many WLAN source IP addresses can be specified for an AC?
+1
+2
+3
+4
+0
+14,5,4
+multi
+Compared with 2.4 GHz, 5 GHz has the following advantages:
+Slow energy attenuation and wide coverage
+Abundant spectrum resources and low interference
+Long wavelength and strong diffraction capability
+High energy and strong penetration
+1,3
+14,6,4
+multi
+Which of the following measures can be taken to protect WLAN security?
+Authentication
+Encryption
+System protection
+Control traffic
+0,1,2
+14,7,4
+multi
+What types of wireless networks are available in terms of coverage?
+WPAN
+WLAN
+WMAN
+WWAN
+0,1,2,3
+14,8,4
+multi
+Which of the following modes can an AP dynamically discover an AC?
+DHCP mode
+DNS mode
+Broadcast mode
+Manually configure the AC IP address on the AP.
+0,1,2
+14,9,2
+only_one
+The CAPWAP tunnel establishes two tunnels: the data tunnel and the control tunnel. Keepalive packets are used for keepalive regardless of the tunnels.
+Right
+Wrong
+1
+14,10,2
+only_one
+The AP needs to be authenticated when it goes online. The authentication modes include MAC address authentication and SN authentication.
+Right
+Wrong
+0

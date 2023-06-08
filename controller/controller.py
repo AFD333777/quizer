@@ -8,7 +8,6 @@ class QuizController:
     def __create_quiz_wdg(self, theme_id: int):
         question: ThemeQuestion = self.model.get_question(theme_id, 1)
         if not question:
-            # TODO: модальное окно с предупреждениемм
             return
 
         question_wdg = QuizWidget()
@@ -27,7 +26,9 @@ class QuizController:
 
     def __create_main_menu_wdg(self):
         main_menu_wdg = MainMenuWidget()
-        main_menu_wdg.ThemesComboBox.addItems([""] + list(self.model.themes.values()))
+        main_menu_wdg.ThemesComboBox.addItem("", -1)
+        for _id, theme_name in self.model.themes.items():
+            main_menu_wdg.ThemesComboBox.addItem(theme_name, _id)
         main_menu_wdg.StartTestBtn.clicked.connect(self.start_quiz)
 
         return main_menu_wdg
@@ -44,12 +45,11 @@ class QuizController:
         self.view.show()
 
     def start_quiz(self):
-        theme_id = self.view.centralWidget().ThemesComboBox.currentIndex()
-        if theme_id != 0:
+        theme_id = self.view.centralWidget().ThemesComboBox.currentData()
+        if theme_id > 0:
             self.view.setCentralWidget(self.__create_quiz_wdg(theme_id))
 
     def back_to_menu(self):
-        # TODO: нужно ли сбрасывать результат при выходе в меню?
         self.model.reset_all_current_answers()
         self.view.setCentralWidget(self.__create_main_menu_wdg())
 

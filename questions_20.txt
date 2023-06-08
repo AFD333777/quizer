@@ -1,0 +1,70 @@
+20,1,4
+only_one
+Which of the following packets is used by SNMPv2c to proactively send alarms to the NMS and require the NMS to respond explicitly?
+Response
+Inform
+Trap
+Notification
+1
+20,2,4
+only_one
+Compared with SNMPv1, SNMPv2c uses which of the following packets to query OID information in batches?
+Get-Request
+Get-Next-Request
+GetBulk
+GetContinue
+2
+20,3,4
+multi
+Which of the following are the attributes of managed devices defined in the MIB database?
+OID
+Object status
+Object access permission
+Data type of the object
+0,1,2,3
+20,4,4
+multi
+Compared with SNMPv1 and SNMPv2c, SNMPv3 has the following security features:
+Supports authentication of SNMP packet sources using the digital signature technology.
+Supports user authentication using the MD5 algorithm.
+Data encryption using des is supported.
+Supports asymmetric data encryption using RSA.
+1,2
+20,5,4
+multi
+Which of the following are NETCONF objects?
+NETCONF client
+NETCONF server
+NETCONF message
+Device hardware
+0,1,2
+20,6,2
+only_one
+Network devices with SNMP enabled run the Agent process. The NMS management process interacts with the Agent process through SNMP packets.
+Right
+Wrong
+0
+20,7,2
+only_one
+YANG is a data modeling language.
+Right
+Wrong
+0
+20,8,2
+only_one
+NETCONF establishes secure connections based on Secure Shell (SSH) or Transport Layer Security
+Right
+Wrong
+0
+20,9,2
+only_one
+After NETCONF is used, SNMP can be abandoned on the live network.
+Right
+Wrong
+1
+20,10,2
+only_one
+Huawei iMaster NCE is a network automation and intelligence platform that integrates management, control, analysis, and AI functions.
+Right
+Wrong
+0

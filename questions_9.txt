@@ -1,0 +1,74 @@
+9,1,4
+only_one
+Run the display ip routing-table command to check the IP routing table. Which of the following is not included in the command output?
+Destination/Mask
+AdvRouter
+Proto
+Interface
+1
+9,2,4
+only_one
+What is the default priority of a static route?
+150
+10
+60
+0
+2
+9,3,4
+only_one
+When a device learns two routes to the same destination, which of the following parameters is used to distinguish the routes?
+Priority
+Cost
+Mask length
+Next-hop address
+0
+9,4,4
+only_one
+According to the longest match principle, which of the following routes does a packet with the destination IP address 172.16.10.1 match?
+172.16.10.2/32
+172.16.10.0/24
+172.16.0.0/16
+172.17.10.0/24
+1
+9,5,4
+multi
+Which of the following routing protocols is a link-state routing protocol?
+OSPF
+BGP
+Static
+IS-IS
+0,3
+9,6,4
+multi
+Which of the following are the sources of routing information?
+Direct route
+Static routing protocol
+Dynamic routing protocol
+Remote automatic route discovery
+0,1,2
+9,7,4
+multi
+Which of the following protocols are internal gateway protocols?
+RIP
+BGP
+ISIS
+OSPF
+0,2,3
+9,8,2
+only_one
+172.16.1.0/24, 172.16.2.0/24, and 172.16.5.0/24 can be aggregated into 172.16.0.0/22.
+Right
+Wrong
+1
+9,9,2
+only_one
+When forwarding a packet, the router discards the packet if no specific route is found and no default route is available.
+Right
+Wrong
+0
+9,10,2
+only_one
+When forwarding a packet, a router can forward the packet based on the source address.
+Right
+Wrong
+1

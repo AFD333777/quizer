@@ -28,6 +28,7 @@ class Ui_QuizWidget(object):
         self.QuestionLabel.setFrameShape(QtWidgets.QFrame.Box)
         self.QuestionLabel.setLineWidth(1)
         self.QuestionLabel.setText("")
+        self.QuestionLabel.setWordWrap(True)
         self.QuestionLabel.setObjectName("QuestionLabel")
         self.BackToMenuBtn = QtWidgets.QPushButton(QuizWidget)
         self.BackToMenuBtn.setGeometry(QtCore.QRect(10, 10, 100, 30))

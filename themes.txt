@@ -10,7 +10,6 @@
 10,OSPF Basics
 11,IPv6 Basics
 12,Inter-VLAN Communication
-13,Comprehensive application of routing and switching technologies
 14,WLAN Overview
 15,ACL Principles and Configuration
 16,AAA Principles and Configuration

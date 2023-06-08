@@ -1,0 +1,74 @@
+8,1,4
+only_one
+Which of the following IP addresses are private IP addresses?
+172.32.16.254
+192.169.16.1
+239.0.0.8
+172.17.1.254
+3
+8,2,4
+only_one
+What is the number of available IP addresses in the 172.16.0.0/30 network segment?
+1
+4
+2
+8
+2
+8,3,4
+only_one
+If the network address of a company is 192.168.1.0/24, which of the following network masks is applicable to six subnets with a maximum of 20 hosts in each subnet?
+26
+27
+28
+29
+1
+8,4,4
+only_one
+If the IP address of a port is 202.16.7.135/26, which of the following broadcast addresses is the network where the IP address resides?
+202.16.7.255
+202.16.7.129
+202.16.7.191
+202.16.7.252
+2
+8,5,4
+only_one
+In IPv4, what type of address is a multicast address?
+Class A
+Class B
+Class C
+Class D
+3
+8,6,4
+only_one
+Which of the following packets is used by ICMP to detect the connectivity between the source and destination IP addresses?
+ICMP Redirect
+ICMP Echo
+ICMP port unreachable
+ICMP host unreachable
+1
+8,7,4
+multi
+Which of the following IP addresses can be manually configured and used by host interfaces?
+127.0.0.1
+224.0.0.18
+10.2.3.4
+192.168.100.254
+2,3
+8,8,2
+only_one
+When the TTL field of an IP packet is 0, the router discards the packet.
+Right
+Wrong
+0
+8,9,2
+only_one
+172.16.1.0/16 is an available IP address.
+Right
+Wrong
+0
+8,10,2
+only_one
+ICMP defines various error messages for diagnosing network connectivity problems. Based on the error messages, the source device may determine the cause of the data transmission failure.
+Right
+Wrong
+0

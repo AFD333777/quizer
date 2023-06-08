@@ -1,0 +1,78 @@
+19,1,4
+only_one
+Which packets are used by PPPoE to interrupt sessions?
+PADS
+PADO
+PADT
+PADR
+2
+19,2,4
+only_one
+If a packet with mismatched parameters is received during LCP negotiation, which packet is used by PPP to respond?
+Configure-Ack
+Configure-Reject
+Configure-Nak
+Authenticate-Nak
+2
+19,3,4
+only_one
+What is the function of the ip address ppp-negotiate command?
+Enable the function of requesting IP addresses from the peer end.
+Enables the function of receiving IP address requests from a remote end.
+Enable the static IP address assignment function.
+Assign 0.0.0.0 as the IP address of the peer end.
+0
+19,4,4
+only_one
+On a multipoint access network such as Ethernet, the PPPoE server can set up PPP connections with multiple PPPoE clients through one Ethernet port. Therefore, the PPPoE server must set up a unique session identifier for each PPP session to distinguish different connections. What parameters are used to establish a session identifier for PPPoE?
+MAC address
+IP address and MAC address
+MAC address and PPP-ID
+MAC address and session ID
+3
+19,5,4
+only_one
+During the establishment of a PPP session, when the physical layer is available, what phase does the PPP link enter?
+Establish
+Network
+Authentication
+Dead
+0
+19,6,4
+only_one
+Which of the following packets is broadcast?
+PADI
+PADO
+PADR
+PADT
+0
+19,7,4
+multi
+What authentication protocols are supported by PPP authentication?
+PAP
+EAP-TLS
+EAP-MD5
+CHAP
+0,3
+19,8,4
+multi
+Which of the following packets are used during PPP negotiation?
+LCP
+PAP
+CHAP
+IPCP
+0,1,2,3
+19,9,4
+multi
+What parameters are negotiated during PPP link layer negotiation?
+MRU
+Authentication
+Magic number
+IP address
+0,1,2
+19,10,2
+only_one
+During CHAP authentication, the password configured for a user is carried in plain text in PPP packets.
+Right
+Wrong
+1

@@ -1,0 +1,72 @@
+4,1,4
+only_one
+What type of MAC address does 01-00-5e-00-00-01 belong to?
+Unicast MAC address
+Broadcast MAC addresses
+Multicast MAC address
+Any multicast MAC address
+2
+4,2,4
+only_one
+By default, what operations does the switch perform after receiving an unknown unicast frame?
+Learns the mapping between the source MAC address and interface of the data frame and discards the data frame
+Learns the mapping between the source MAC address of the data frame and the interface and flood the data frame
+Learns the mapping between the source MAC address and interface and forwards the data frame.
+Does not learn the mapping between the source MAC address and interface of the data frame and forwards the data frame
+1
+4,3,4
+only_one
+Which of the following ARP packets is used to request the MAC address corresponding to the IP address?
+ARP Request
+ARP Reply
+RARP Request
+RARP Reply
+0
+4,4,4
+multi
+Which of the following fields are contained in an Ethernet frame in the IEEE 802.3 format?
+Source MAC
+Destination MAC
+FCS
+Length
+0,1,2,3
+4,5,4
+multi
+Which of the following statements about the MAC address learning mechanism of a switch are correct?
+MAC address learning is enabled by default.
+The switch automatically learns the source MAC address of the packets received by the interface.
+MAC address learning can be disabled on the switch.
+The switch can learn MAC addresses based on destination MAC addresses.
+0,1,2
+4,6,4
+multi
+When a terminal device receives a data frame, it checks the destination MAC address in the frame header. Which of the following data frames can be received?
+The destination MAC address is the local MAC address.
+The destination MAC address is a multicast MAC address.
+The destination MAC address is the multicast MAC address listened by the local device.
+The destination MAC address is a broadcast MAC address.
+0,2,3
+4,7,2
+only_one
+The switch floods data frames whose destination MAC addresses are unknown unicast MAC addresses and broadcast MAC addresses.
+Right
+Wrong
+0
+4,8,2
+only_one
+The switch isolates the collision domain, and the router isolates the broadcast domain.
+Right
+Wrong
+0
+4,9,2
+only_one
+Initially, the MAC address table of the switch is empty.
+Right
+Wrong
+0
+4,10,2
+only_one
+The MAC address of the device is globally unique.
+Right
+Wrong
+0

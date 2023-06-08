@@ -1,9 +1,9 @@
 1,1,4
 only_one
 Which of the following is a disadvantage of a tree network?
-Node with a higher layer causes more serious network problems.
-Hierarchical star structure.
-It can quickly connect multiple star networks.
+Node with a higher layer causes more serious network problems
+Hierarchical star structure
+It can quickly connect multiple star networks
 Easy to expand the network scale
 0
 1,2,4
@@ -17,10 +17,10 @@ Tree network
 1,3,5
 multi
 What are the functions of the firewall?
-Isolate networks of different security levels.
-Access control between networks of different security levels.
+Isolate networks of different security levels
+Access control between networks of different security levels
 Remote access
-Implement data encryption and VPN services.
+Implement data encryption and VPN services
 Perform network address translation
 0,1,2,3,4
 1,4,4

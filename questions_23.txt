@@ -1,0 +1,74 @@
+23,1,4
+only_one
+To save IP addresses, how many bits are used in the subnet mask of the interconnection IP address of network devices on an enterprise network?
+28
+24
+30
+29
+2
+23,2,4
+only_one
+Which of the following functions can be enabled on access switches to prevent employees from accessing small routes carrying DHCP functions?
+IPSG
+DHCP Relay
+DHCP Snooping
+Port-Security
+2
+23,3,4
+only_one
+Which of the following layers is not a medium-sized campus network?
+Core layer
+Aggregation layer
+Access layer
+Equipment layer
+3
+23,4,4
+only_one
+Which technology is used to allow only fixed users (IP addresses) to log in to the network when you use Telnet or Web to manage devices?
+NAT
+ACL
+AAA
+CHAP
+1
+23,5,4
+multi
+Which technologies can be implemented on a campus network to ensure network reliability?
+iStack
+CSS
+VRRP
+Link aggregation
+0,1,2,3
+23,6,4
+multi
+What is the lifecycle of a campus network project?
+Planning and design
+Deployment and implementation
+Network O&M
+Network optimization
+0,1,2,3
+23,7,4
+multi
+Which routing protocols can be used to ensure network connectivity within a campus network?
+Static route
+OSPF
+ISIS
+BGP
+0,1,2
+23,8,2
+only_one
+Fixed IP addresses can be allocated to special terminals, such as servers and printers.
+Right
+Wrong
+0
+23,9,2
+only_one
+For small-sized campuses, the network architecture is simplified as much as possible.
+Right
+Wrong
+0
+23,10,2
+only_one
+For the centralized NMS, SNMPv3 adds authentication and encryption, which greatly improves NMS security.
+Right
+Wrong
+0

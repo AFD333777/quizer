@@ -1,0 +1,70 @@
+12,1,4
+only_one
+To implement inter-VLAN communication through sub-interfaces, which of the following commands needs to be configured on sub-interfaces to terminate VLANs?
+port trunk pvid vlan-id
+port default vlan vlan-id
+dot1q termination vid vlan-id
+port link-type hybrid vlan-id
+2
+12,2,4
+only_one
+When using a one-armed router to implement inter-VLAN communication, sub-interfaces instead of physical interfaces are commonly used. Why?
+Physical interfaces cannot be encapsulated with 802.1Q
+Sub-interfaces has a faster forwarding speed
+Sub-interfaces can save physical interfaces.
+sub-interfaces can be configured with access interfaces or trunk interfaces
+2
+12,3,4
+only_one
+Which of the following statements about a Layer 3 switch is false?
+Layer 3 switches can only forward packets at Layer 3 but cannot forward packets at Layer 2.
+Layer 3 switches support routing and forwarding through VLANIF interfaces.
+Layer 3 switch can forward both Layer 2 and Layer 3 packets.
+Layer 3 switch can implement route forwarding through a Layer 3 physical interface.
+0
+12,4,4
+only_one
+Which of the following statements about routing and forwarding of Layer 3 switches is incorrect?
+The Layer 3 switch finds that the destination MAC address of the data frame is the MAC address of its VLANIF interface and forwards the packet to the routing module for further processing.
+If the routing module finds that the destination IP address is not the IP address of the local interface, it searches the routing table.
+Based on the routing table, the Layer 3 switch directly forwards the packet to the next hop without re-encapsulating the data frame.
+When a Layer 3 switch performs Layer 3 forwarding, the source and destination MAC addresses of packets need to be replaced.
+2
+12,5,4
+multi
+Which of the following types of interfaces can be used to implement inter-VLAN communication through sub-interfaces?
+Access
+Trunk
+Hybrid
+Bridge
+1,2
+12,6,2
+only_one
+During Layer 3 communication, the source and destination MAC addresses are replaced each time the packets pass through a Layer 3 device.
+Right
+Wrong
+0
+12,7,2
+only_one
+The Layer 3 switch can properly connect to the router and run a dynamic routing protocol.
+Right
+Wrong
+0
+12,8,2
+only_one
+By default, a sub-interface for VLAN tag termination is not enabled with ARP broadcast and cannot forward broadcast packets. To allow the sub-interface to forward broadcast packets, run the arp broadcast enable command on the sub-interface.
+Right
+Wrong
+0
+12,9,2
+only_one
+On a Layer 3 device, you can run the undo port switch command to change a Layer 2 interface to a Layer 3 interface.
+Right
+Wrong
+0
+12,10,2
+only_one
+Layer 2 interfaces do not have MAC addresses, but Layer 3 interfaces have MAC addresses.
+Right
+Wrong
+0

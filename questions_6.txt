@@ -1,0 +1,72 @@
+6,1,4
+only_one
+The bridge IDs of SW1, SW2, SW3, and SW4 are 4096.4c1f-aabc-102a, 4096.4c1f-aabc-102b, 4096.4c1f-aabc-001a, and 8192.4c1f-aabc-112b, if four switches are on the same Layer 2 network and STP is enabled, which of the following is the root bridge?
+SW1
+SW2
+SW3
+SW4
+2
+6,2,4
+only_one
+By default, the forward delay of STP is ?.
+30s
+15s
+20s
+2s
+1
+6,3,4
+only_one
+Which of the following statements about designated ports are correct?
+All ports on the root bridge are designated ports.
+A non-root bridge has only one designated port.
+A designated port is used to receive BPDUs.
+The designated port must be connected to the root port.
+0
+6,4,4
+only_one
+The root bridge ID, bridge ID, interface ID, and root path cost (RPC) are four important fields for configuring BPDU priorities. Which of the following is the preferred sequence for configuring BPDUs on a switch?
+Interface ID, root bridge ID, bridge ID, and RPC
+RPC, root bridge ID, bridge ID, and interface ID
+Root bridge ID, bridge ID, interface ID, and RPC
+Root bridge ID, RPC, bridge ID, and interface ID
+3
+6,5,4
+multi
+Which of the following fields are contained in a BPDU configuration?
+Root ID
+Port ID
+Bridge ID
+Forward Delay
+0,1,2,3
+6,6,4
+multi
+Which of the following statements about the STP root port are correct?
+A non-root bridge can have only one root port.
+The root port is a non-root bridge port used to receive BPDUs.
+A root bridge can have a maximum of one root port.
+The BID of the device is not compared during root port election.
+0,1
+6,7,2
+only_one
+By default, the STP mode of the switch is RSTP.
+Right
+Wrong
+1
+6,8,2
+only_one
+Non-root bridges in STP can also actively send configuration BPDUs.
+Right
+Wrong
+1
+6,9,2
+only_one
+You can manually set the priority of the switch BID to 1000.
+Right
+Wrong
+1
+6,10,2
+only_one
+Generally, it takes 50 seconds to restore a root bridge fault and 30 seconds to restore a direct link fault.
+Right
+Wrong
+0

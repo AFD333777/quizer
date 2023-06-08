@@ -17,12 +17,11 @@ class QuizModel:
                     _id, name = line.strip().split(",")
                     self.themes[int(_id)] = name
         else:
-            # TODO: добавить обработку
             raise Exception("Не найден файл с темами")
 
     def __load_questions(self):
         questions_files = [
-            os.path.join(self.ROOT_PROJECT_PATH, f"questions_{i}.txt") for i in range(1, 2)  # len(self.themes) + 1)
+            os.path.join(self.ROOT_PROJECT_PATH, f"questions_{i}.txt") for i in range(1, 24) if i != 13
         ]
         for question_file in questions_files:
             if os.path.exists(question_file):
@@ -31,7 +30,6 @@ class QuizModel:
                         line = file.readline()
                         if not line:
                             break
-
                         theme_id, question_id, answer_count = [int(elem) for elem in line.split(",")]
                         answer_type = file.readline().strip()
                         if answer_type not in (AnswerTypes.MULTI, AnswerTypes.ONLY_ONE):
@@ -49,7 +47,6 @@ class QuizModel:
                             answer
                         )
             else:
-                # TODO: добавить обработку
                 raise Exception(f"Не найден файл {question_file} с вопросами")
 
     def __init__(self):

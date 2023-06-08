@@ -1,0 +1,120 @@
+5,1,4
+only_one
+Which of the following 802.11 protocols can work only on the 5 GHz frequency band?
+802.11g
+802.11n
+802.11ax
+802.11ac
+3
+5,2,4
+only_one
+Which of the following VLAN IDs can be configured?
+0
+10
+40950
+10000
+1
+5,3,4
+only_one
+What CAPWAP packets does the AC use to deliver configuration files to APs?
+Configuration Update Request
+Image Data Request
+Configuration Update Response
+Image Data Response
+2
+5,4,4
+only_one
+If the PVID of a trunk interface is 5 and the port trunk allow-pass vlan 10 20 command is run on the interface, which VLANs can transmit traffic?
+1/5/10/20
+10/20
+5/10/20
+1/10/20
+3
+5,5,4
+only_one
+Which data frame is used by an AP to periodically advertise its SSID?
+Probe Request
+Probe Response
+Association Request
+Beacon
+3
+5,6,4
+only_one
+Each AC needs to specify its source IP address to establish a CAPWAP tunnel with the AP. How many WLAN source IP addresses can be specified for an AC?
+1
+2
+3
+4
+0
+5,7,4
+multi
+Which of the following statements about VLAN is false?
+The default PVID of the port is 0.
+Access ports are used to connect terminals, and trunk ports are used to connect switches.
+The default interface type of Huawei S series switches is Hybrid.
+An access port can process data frames of multiple VLANs.
+0,3
+5,8,4
+multi
+Which of the following statements about the VLAN technology are incorrect?
+The VLAN technology can isolate a large collision domain into several small collision domains.
+The VLAN technology can isolate a large Layer 2 broadcast domain into several small Layer 2 broadcast domains.
+PCs in different VLANs cannot communicate.
+PCs in the same VLAN can communicate at Layer 2.
+0,2
+5,9,4
+multi
+Compared with 2.4 GHz, 5 GHz has the following advantages:
+Slow energy aatenuation and wide coverage
+Abundant spectrum resources and low interference
+Long wavelength and strong diffraction capability
+High energy and strong penetration
+1,3
+5,10,4
+multi
+Which of the following measures can be taken to protect WLAN security?
+Authentication
+Encryption
+System protection
+Control traffic
+0,1,2
+5,11,4
+multi
+What types of wireless networks are available in terms of coverage?
+WPAN
+WLAN
+WMAN
+WWAN
+0,1,2,3
+5,12,4
+multi
+Which of the following modes can an AP dynamically discover an AC?
+DHCP mode
+DNS mode
+Broadcast mode
+Manually configure the AC IP address on the AP
+0,1,2
+5,13,2
+only_one
+A VLAN is a broadcast domain.
+Right
+Wrong
+0
+5,14,2
+only_one
+To restrict the access of a specific host to specific resources, you can configure VLANs based on MAC addresses.
+Right
+Wrong
+0
+5,15,2
+only_one
+The CAPWAP tunnel establishes two tunnels: the data tunnel and the control tunnel. Keepalive packets are used for keepalive regardless of the tunnels.
+Right
+Wrong
+1
+5,16,2
+only_one
+The AP needs to be authenticated when it goes online. The authentication modes include MAC address authentication and SN authentication.
+Right
+Wrong
+0

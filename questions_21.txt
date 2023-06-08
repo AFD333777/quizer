@@ -1,0 +1,74 @@
+21,1,4
+only_one
+Which of the following modules is responsible for virtualization of underlying hardware infrastructure in the standard NFV architecture?
+VNF
+NFVI
+MANO
+OSS
+1
+21,2,4
+only_one
+In the SDN architecture, which of the following interfaces is used to communicate with SDN switches?
+RESTCONF
+RESTful interface
+NBI
+SBI
+3
+21,3,4
+multi
+In the OpenFlow architecture, which of the following are the types of packets sent from the controller to the switch?
+Asynchronous
+Controller-to-Switch
+Symmetric
+Switch-to-Controller
+1,2
+21,4,4
+multi
+Which of the following are NFV features?
+Partition
+Isolation
+Encapsulation
+Independent from hardware
+0,1,2,3
+21,5,4
+multi
+Which of the following features are characteristics of an SDN network?
+CU separation
+Centralized control
+Development interface
+Device convergence
+0,1,2
+21,6,4
+multi
+Which of the following are SDN network architectures?
+Collaboration application layer
+Control layer
+Device layer
+Core layer
+0,1,2
+21,7,4
+multi
+What are the benefits of NFV to carriers?
+Shorten service rollout time
+Reduce network construction costs
+Improve network O&M efficiency
+Build an open ecosystem
+0,1,2,3
+21,8,2
+only_one
+An OpenFlow switch forwards packets based on flow tables. In addition to the destination MAC address and destination IP address, multiple fields can be used to match packets.
+Right
+Wrong
+0
+21,9,2
+only_one
+SDN and NFV technologies are the development trends of current networks. The two technologies are inseparable.
+Right
+Wrong
+1
+21,10,2
+only_one
+NCE integrates the functions of traditional eSight, Agile Controller, and analyzer.
+Right
+Wrong
+0

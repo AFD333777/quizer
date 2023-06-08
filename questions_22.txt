@@ -1,0 +1,72 @@
+22,1,4
+only_one
+To improve code modularity and code utilization, we can use classes to describe a set of properties and methods of the same type. The keyword for defining a class is?
+init
+def
+class
+function
+2
+22,2,4
+only_one
+Which of the following methods is used to write data in the Telnetlib module?
+read_all ()
+close()
+write()
+read_very_eager()
+2
+22,3,4
+multi
+What types of characters are supported by Python identifiers?
+Letter
+Digit
+@
+Underscore
+0,1,3
+22,4,4
+multi
+What are the advantages of Python?
+Elegant syntax and dynamic types are explanatory.
+Process-oriented and object-oriented programming.
+Abundant third-party libraries.
+Code written in other languages can be invoked.
+0,1,2,3
+22,5,4
+multi
+Which of the following high-level programming languages are compilation-type?
+C
+C++
+Java
+Python
+0,1,2
+22,6,4
+multi
+Which of the following categories can computer languages be classified according to language levels?
+Machine language
+Assembly language
+High-level language
+Compilation Language
+0,1,2
+22,7,2
+only_one
+7. In Python programs, code indentation represents the scope of code blocks. If a block of code contains two or more statements, the statements must have the same indentation.
+Roght
+Wrong
+0
+22,8,2
+only_one
+Java and Python are interpretative languages.
+Right
+Wrong
+1
+22,9,2
+only_one
+In Python, relational operators can be used consecutively. For example, 2<3<4 is equivalent to 2<3 and 3<4.
+Right
+Wrong
+0
+22,10,2
+only_one
+The Python program written on the Windows platform cannot run on the Unix platform.
+Right
+Wrong
+1

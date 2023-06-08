@@ -1,0 +1,72 @@
+11,1,4
+only_one
+Compared with IPv4, IPv6 has a large number of address spaces. What is the length of an IPv6 address?
+64
+96
+128
+256
+2
+11,2,4
+only_one
+IPv6 address: Which of the following is the abbreviation of 2001:0AF8:0000:1234:FB00:0000:5000:EF14?
+2001:AF8:0000:1234:FB:0000:5000:EF14
+2001:0AF8::1234:FB00::5000:EF14
+2001:AF8:0:1234:FB00::5000:EF14
+2001:0AF8:0000:1234:FB00:0000:5:EF14
+2
+11,3,4
+only_one
+Compared with the IPv4 header, which of the following fields is added to the IPv6 basic header?
+Payload Length
+Hop Limit
+Next Header
+Flow Label
+3
+11,4,4
+only_one
+Which of the following is the prefix of a link-local address?
+2001::/64
+FE80::/10
+FEC0::/10
+3001::/64
+1
+11,5,4
+only_one
+If the MAC address of a device is 5489-98C8-1111, what is the link-local address of the device?
+FE80::5689:98FF:FEC8:1111
+FE80::5489:98FF:FEC8:1111
+FE80::5689:98FF:FFC8:1111
+FE80::5489:98FF:FFC8:1111
+0
+11,6,4
+multi
+According to the IPv6 address prefix, the IPv6 address can be .
+Unicast address
+Multicast address
+Broadcast address
+Anycast address
+0,1,3
+11,7,2
+only_one
+An IPv6 unicast address consists of a network prefix and an interface identifier. Common IPv6 unicast addresses, such as global unicast addresses and link-local addresses, must be 64 bits.
+Right
+Wrong
+0
+11,8,2
+only_one
+The link-local address cannot be manually configured.
+Right
+Wrong
+1
+11,9,2
+only_one
+IPv6 uses ICMPv6 NS and NA packets to replace the IPv4 address resolution function of ARP.
+Right
+Wrong
+0
+11,10,2
+only_one
+When IPv6 uses stateless address autoconfiguration, information such as domain names can be obtained.
+Right
+Wrong
+1

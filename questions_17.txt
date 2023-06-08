@@ -1,0 +1,74 @@
+17,1,4
+only_one
+Which of the following address translation technologies can use only the current address of an interface as the public address for NAT?
+Easy IP
+Dynamic NAT
+Static NAT
+NAT Server
+0
+17,2,4
+only_one
+Which NAT technology can be deployed on egress network devices to allow external users to access a TCP port on the internal server?
+Static NAT
+NAT Server
+Dynamic NAT
+NAPT
+1
+17,3,4
+only_one
+The following [R1-GigabitEthernet0/0/1]nat outbound 2000 address-group 1. Which of the following statements about the configuration command is incorrect?
+This NAT is applicable to the scenario where the intranet proactively accesses the extranet
+This NAT translates the traffic that matches ACL 2000.
+This NAT will translate port numbers.
+In this command, outbound can be changed to inbound.
+3
+17,4,4
+only_one
+NAPT allows multiple private IP addresses to be mapped to the same public IP address through different port numbers. Which of the following statements about port numbers in NAPT are correct?
+The mapping between port numbers and private addresses must be manually configured.
+Only the port number range needs to be configured
+No port number configuration is required.
+Port numbers need to be allocated using ACLs
+2
+17,5,4
+multi
+Which of the following is not included in source address translation by NAPT?
+Source IP address
+Source port number
+Destination port number
+Destination IP address
+2,3
+17,6,4
+multi
+Which of the following NAT technologies can be used to enable external users to proactively access a server on the intranet?
+Static NAT
+NAT Server
+NAPT
+Easy IP
+0,1
+17,7,4
+multi
+Which of the following are private IP addresses?
+10.1.1.1
+172.16.1.1
+100.1.1.1
+192.168.3.1
+0,1,2,3
+17,8,2
+only_one
+NAPT not only translates IP addresses but also port numbers to implement 1:n mapping between public addresses and private addresses.
+Right
+Wrong
+0
+17,9,2
+only_one
+By default, Easy IP will not translate port numbers.
+Right
+Wrong
+1
+17,10,2
+only_one
+When configuring dynamic NAT, you need to configure ACL traffic to control whether traffic can pass through the device
+Right
+Wrong
+1

@@ -1,0 +1,74 @@
+7,1,4
+only_one
+What is the default priority of an LACP interface?
+4096
+32768
+8192
+0
+1
+7,2,4
+only_one
+Which of the following interface configuration parameters does not require the same configuration for member interfaces in an aggregation group?
+Spanning tree configuration
+Interface rate
+duplex mode
+VLAN configuration
+0
+7,3,4
+only_one
+Which of the following statements about active link election in LACP mode is false?
+The devices at both ends select the Actor based on the LACPDU.
+The Actor selects an active interface based on the interface priority and interface number.
+The Actor enables the active interface and disables the inactive interface. The Actor informs the peer of the election result through the physical interface status.
+The non-active end determines its active interface based on the Actor election result.
+2
+7,4,4
+only_one
+Which link aggregation mode can implement link backup on Huawei switches?
+Manual mode
+Static LACP mode
+LACP dynamic mode
+Automatic selection mode
+1
+7,5,4
+only_one
+Which of the following modes is used to send LACP packets to the peer end?
+Unicast
+Multicast
+Anycast
+Broadcast
+1
+7,6,4
+multi
+Which of the following fields is used to select the Actor in the LACPDU?
+Interface priority
+Device priority
+Device MAC address
+Interface No.
+1,2
+7,7,4
+multi
+Which of the following physical parameters must be consistent at both ends of an Ethernet trunk link?
+Number of aggregated links
+Rate of the aggregated link
+Duplex mode of the aggregated link
+Models of switches at both ends of the link to be aggregated
+0,1,2
+7,8,2
+only_one
+To ensure the minimum bandwidth, you can set the minimum number of active interfaces in a link aggregation group.
+Right
+Wrong
+0
+7,9,2
+only_one
+Two devices form a cluster and are virtualized into a single logical device. The simplified networking does not require protocols such as MSTP and VRRP, simplifying network configurations. In addition, inter-device link aggregation implements fast convergence and improves reliability.
+Right
+Wrong
+0
+7,10,2
+only_one
+A cluster supports only two devices.
+Right
+Wrong
+0
